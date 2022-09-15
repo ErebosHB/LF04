@@ -9,11 +9,14 @@ table {
 
     margin: auto;
     background-color: azure;
+
 }
 
 th , td {
     padding-left: 5em;
     padding-right: 5em;
+    border: 1px solid;
+    border-color: black;
 }
 
 a:visited {
