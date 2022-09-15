@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif Magneto;
+    font-size: 1.2em;
+    background-color: honeydew;
+    text-align: center;
+    margin-top: 7em;
+}
+table {
+
+    margin: auto;
+    background-color: azure;
+}
+
+th , td {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+a:visited {
+    color: chocolate;
+    text-decoration: antiquewhite;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+a:link {
+    color: darkorchid;
+    text-decoration: antiquewhite;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: antiquewhite;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+a:active {
+    color: darkgoldenrod;
+    text-decoration: antiquewhite;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+p {
+    color: black;
+}
+
+thead{
+    background-color: dimgray;
+}
+
