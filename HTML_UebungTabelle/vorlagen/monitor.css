@@ -9,6 +9,8 @@ table {
 
     margin: auto;
     background-color: azure;
+    border: 1px solid;
+    border-color: black;
 
 }
 
