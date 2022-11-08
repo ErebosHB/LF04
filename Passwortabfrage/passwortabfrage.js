@@ -5,7 +5,7 @@ let abfrage = () => {
             location.href = "http://www.szut.de/"
             break;
         }
-        else {
+        else if (i === 2) {
             document.getElementById("text").innerHTML = "Drei mal falsch du Vogel";
         }
 
