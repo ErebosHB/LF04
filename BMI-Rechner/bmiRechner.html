@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI-Rechner</title>
+    <meta name="author" content="Yannick">
+    <meta http-equiv="expires" content="3600">
+    <meta name="robots" content="nofollow">
+    <script src="bmiRechner.js"></script>
+    <link rel="stylesheet" href="bmiRechner.css">
+</head>
+<body>
+<h1 id="ueberschrift1">
+    Body-Mass-Index-Rechner
+</h1>
+<h2 id="ueberschrift2">
+    Online-BMI-Berechnung für Erwachsene
+</h2>
+<img src="img/imgBMI.png" alt="Grafik für den BMI">
+<p id="link">
+    Einen BMI-Rechner für Kinder finden Sie hier:
+    <a href="https://de.wikipedia.org/wiki/Kinder">BZga-BMI-Rechner für Kinder</a>
+</p>
+<div id="eingabeKasten">
+    <p>Bitte geben Sie ihre Körpergröße ein:</p>
+    <p>Körpergröße <strong>in cm:</strong><input type="number" name="groesse" step="1" size="260" id="groesse"></p>
+    <p>Bitte geben Sie ihr Körpergewicht ein:</p>
+    <p>Körpergewicht <strong>in kg:</strong><input type="number" name="Gewicht" step="1" size="300" id="gewicht"></p>
+    <button type="button" id="taste">BMI-Berechnen</button>
+    <p><output id="bmiOutput">BMI beträgt:</output></p>
+</div>
+<h3>
+    Bedeutung des BMI-Wertes bei Erwachsenen
+</h3>
+<table>
+    <tr>
+        <th>
+            BMI-Wert
+        </th>
+        <th>
+            Bedeutung
+        </th>
+    </tr>
+    <tr>
+        <td>
+            unter 18,5
+        </td>
+        <td>
+            Untergewicht
+        </td>
+    </tr>
+    <tr>
+        <td>
+            18,5-24,9
+        </td>
+        <td>
+            Normalgewicht
+        </td>
+    </tr>
+    <tr>
+        <td>
+            25-29,9
+        </td>
+        <td>
+            Übergewicht
+        </td>
+    </tr>
+    <tr>
+        <td>
+            ab 30
+        </td>
+        <td>
+            Adipositas
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
