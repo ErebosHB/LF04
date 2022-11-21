@@ -6,7 +6,7 @@
     <meta name="author" content="Yannick">
     <meta http-equiv="expires" content="3600">
     <meta name="robots" content="nofollow">
-    <script src="bmiRechner.js"></script>
+    <script src="bmiRechner.js" defer></script>
     <link rel="stylesheet" href="bmiRechner.css">
 </head>
 <body>
@@ -23,11 +23,15 @@
 </p>
 <div id="eingabeKasten">
     <p>Bitte geben Sie ihre Körpergröße ein:</p>
-    <p>Körpergröße <strong>in cm:</strong><input type="number" name="groesse" step="1" size="260" id="groesse"></p>
+    <p>Körpergröße <strong>in cm:</strong>
+        <input type="number" name="groesse" step="1" size="260" id="groesse">
+    </p>
     <p>Bitte geben Sie ihr Körpergewicht ein:</p>
-    <p>Körpergewicht <strong>in kg:</strong><input type="number" name="Gewicht" step="1" size="300" id="gewicht"></p>
+    <p>Körpergewicht <strong>in kg:</strong>
+        <input type="number" name="Gewicht" step="1" size="300" id="gewicht">
+    </p>
     <button type="button" id="taste">BMI-Berechnen</button>
-    <p><output id="bmiOutput">BMI beträgt:</output></p>
+    <p><strong>BMI beträgt:</strong><output id="bmiOutput"></output></p>
 </div>
 <h3>
     Bedeutung des BMI-Wertes bei Erwachsenen
