@@ -1,4 +1,16 @@
+*{
+    font-family: Arial, sans-serif;
+}
 img {
     height: 300px;
     width: 400px;
+}
+div#eingabeKasten {
+    border-radius: 0.4em;
+    border: 3px solid black;
+    margin-right: 4em;
+
+}
+p#uebergewicht {
+
 }
